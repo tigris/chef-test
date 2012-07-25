@@ -1,0 +1,4 @@
+{
+  "run_list": "recipe[main]",
+  "ohai": { "plugin_path": "/tmp/chef-test/ohai_plugins" }
+}
