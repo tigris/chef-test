@@ -4,6 +4,7 @@ chef-solo with relative file path.
 
     $ cd /tmp
     $ git clone git@github.com:tigris/chef-test
+    $ cd /tmp/chef-test
     $ sudo chef-solo -c solo.rb -j node.json # works on this run
     $ sudo chef-solo -c solo.rb -j node.json # dies on this run
     $ sudo chef-solo -c /tmp/chef-test/solo.rb -j node.json # works again
